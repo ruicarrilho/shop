@@ -1,0 +1,127 @@
+.app-body {
+  padding: 18px;
+}
+
+.productrow-body {
+  position: relative;
+  width: 70%;
+  padding-bottom: 10px;
+}
+
+.items-list-body {
+  display: inline;
+  width: 70%;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.cart-body {
+  display: none;
+  width: 16%;
+  float: right;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.cart-body.is-visible {
+  display: inline;
+}
+
+.button-body {
+  display: inline;
+  margin-right: 15px; 
+}
+
+.product-body {
+  display: inline;
+}
+
+.product-name {
+  padding-right: 20px;
+  display: table-cell;
+  min-width: 100px;
+}
+
+.product-price {
+  padding-right: 20px;
+  padding-left: 5px; 
+  display: table-cell;
+}
+
+.quantity-body {
+  display: initial;
+  margin-right: 20px;
+}
+
+.quantity-label {
+  padding-right: 10px;
+}
+
+.quantity-input {
+  width: 50px;
+}
+
+.cart-row-body {
+  white-space: nowrap;
+}
+
+.cart-row-body:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.cart-item-name {
+  padding-right: 30px;
+  display: inline-block;
+  width: 53px;
+}
+
+.cart-item-quantity {
+  padding-right: 10px;
+  display: inline;
+  text-align: right;
+}
+
+.cart-item-unit-price {
+  padding-right: 10px;
+  display: inline;
+  text-align: right;
+}
+
+.cart-item-price {
+  font-weight: bold;
+  display: inline;
+  float: right;
+}
+
+.cart-item-operator {
+  padding-right: 10px;
+  display: inline;
+  text-align: right;
+}
+
+.cart-item-promotion {
+  font-weight: bold;
+  font-size: 11px;
+  color: red;
+  text-align: right;
+}
+
+.cart-item-remove {
+}
+
+.total-row-label {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  display: inline;
+  position: relative;
+}
+
+.total-row-value {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  display: inline;
+  position: relative;
+  float: right;
+}
